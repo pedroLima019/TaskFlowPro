@@ -15,14 +15,14 @@ const FormLogin = () => {
   return (
     <Card className="w-full max-w-sm border-0 shadow-xl">
       <CardHeader>
-        <CardTitle className="text-center text-2xl mb-2">
+        <CardTitle className="text-center text-3xl mb-2 font-extrabold text-blue-700">
           Faça seu Login
         </CardTitle>
       </CardHeader>
       <CardContent>
         <form>
-          <div className="flex flex-col gap-6">
-            <div className="grid gap-2">
+          <div className="flex flex-col gap-8 ">
+            <div className="grid gap-3">
               <Label htmlFor="email">Email</Label>
               <Input
                 id="email"
@@ -31,19 +31,19 @@ const FormLogin = () => {
                 required
               />
             </div>
-            <div className="grid gap-2">
+            <div className="grid gap-3">
               <div className="flex items-center">
                 <Label htmlFor="password">Password</Label>
-                <a
-                  href="#"
-                  className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
-                >
-                  Forgot your password?
-                </a>
               </div>
               <Input id="password" type="password" required />
-            </div>
+            </div>{" "}
           </div>
+          <a
+            href="#"
+            className="ml-auto inline-block text-xs underline-offset-4 hover:underline mt-2 hover:text-blue-700 "
+          >
+            Esqueceu sua senha ?
+          </a>
         </form>
       </CardContent>
       <CardFooter className="flex-col gap-2">
