@@ -17,7 +17,7 @@ const LoginPage = () => {
   }, [status, router]);
 
   return (
-    <main className="w-full flex flex-col items-center justify-center h-dvh bg-black p-4">
+    <main className="w-full flex flex-col items-center justify-center h-dvh p-4">
       <FormLogin />
     </main>
   );
