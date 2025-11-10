@@ -93,12 +93,20 @@ const FormLogin = () => {
             </p>
           )}
 
-          <a
-            href="#"
-            className="ml-auto inline-block text-xs underline-offset-4 hover:underline mt-2 text-white font-extralight"
-          >
-            Esqueceu sua senha?
-          </a>
+          <div className="flex items-center justify-between py-1.5">
+            <a
+              href="#"
+              className=" text-xs underline-offset-4 hover:underline hover:text-blue-500 mt-2 text-white font-extralight"
+            >
+              Esqueceu sua senha?
+            </a>
+            <a
+              href="/register"
+              className=" text-xs underline-offset-4 hover:underline hover:text-blue-500 mt-2 text-white font-extralight"
+            >
+              Não possui uma conta ?
+            </a>
+          </div>
 
           <Button
             type="submit"
