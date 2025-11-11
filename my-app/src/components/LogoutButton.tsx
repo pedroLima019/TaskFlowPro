@@ -18,7 +18,7 @@ const LogoutButton = () => {
     <button
       onClick={handleLogout}
       disabled={loading}
-      className="bg-white p-1.5 flex items-center rounded-full mr-1 hover:bg-red-600 hover:text-white transition-all ease-in-out "
+      className="bg-black p-1.5 flex items-center rounded-full mr-1 hover:bg-red-600 hover:text-white transition-all ease-in-out "
     >
       {loading ? (
         <Loader2 className="animate-spin" />
