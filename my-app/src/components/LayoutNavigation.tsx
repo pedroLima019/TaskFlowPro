@@ -19,12 +19,14 @@ const LayoutNavigation = async () => {
   return (
     <>
       <div className="lg:hidden">
-        <Navbar />
+        <Navbar user={user.name} />
       </div>
 
       <div className="hidden lg:flex">
-        <SidebarNav />
+        <SidebarNav user={user.name} />
       </div>
     </>
   );
 };
+
+export default LayoutNavigation;

@@ -1,8 +1,10 @@
-const DashboardPage = () => {
+import TaskManager from "@/components/TaskManager";
+
+const DashboardPage = async () => {
   return (
-    <div>
-      <h1>Salve Dashboard !</h1>
-    </div>
+    <main className="container mx-auto">
+      <TaskManager />
+    </main>
   );
 };
 

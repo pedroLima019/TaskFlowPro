@@ -94,7 +94,7 @@ const Navbar = ({ user }: NavbarProps) => {
           alt="Logo"
           width={40}
           height={40}
-          className="mr-2  "
+          className="mr-2  rounded-full"
         />
       </div>
     </nav>
